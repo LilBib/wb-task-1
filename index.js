@@ -45,7 +45,10 @@ const handleChangeSummary = () => {
         productCounterElement.textContent = productsCounter + ' товаров';
     }
     document.querySelectorAll('.page__active-products-amount').forEach(counter => {
-        counter.textContent = productsCounter
+        counter.textContent = productsCounter;
+        if (counter.textContent === '0') {
+            counter.style.display = 'none';
+        } else counter.style.display = 'block';
     })
     document.querySelector('.summary__discount-amount').textContent = '-' + summaryDiscount + ' сом';
     if (document.querySelector('.payment__ckeckbox').classList.contains('payment__ckeckbox_active')) {
