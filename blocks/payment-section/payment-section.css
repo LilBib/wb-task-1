@@ -1,0 +1,11 @@
+.payment-section {
+    padding: 16px 24px 24px;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+@media screen and (max-width:715px) {
+    .payment-section {
+        padding: 16px;
+    }
+}

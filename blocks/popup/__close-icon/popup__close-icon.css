@@ -1,0 +1,10 @@
+.popup__close-icon {
+    width: 24px;
+    height: 24px;
+    background: url(../../../icons/close.svg) no-repeat center;
+    border: none;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.popup__close-icon:hover {
+    opacity: .75;
+}

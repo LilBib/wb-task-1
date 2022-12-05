@@ -1,0 +1,10 @@
+.delivery-line {
+    display: flex;
+    color: black;
+    margin-bottom: 16px;
+}
+@media screen and (max-width:715px) {
+    .delivery-line {
+        flex-direction: column;
+    }
+}

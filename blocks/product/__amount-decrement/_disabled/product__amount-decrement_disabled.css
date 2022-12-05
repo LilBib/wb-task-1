@@ -1,0 +1,4 @@
+.product__amount-decrement_disabled {
+    opacity: .2;
+    pointer-events: none;
+}

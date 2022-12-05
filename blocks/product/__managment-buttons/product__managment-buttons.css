@@ -1,0 +1,12 @@
+.product__managment-buttons {
+    align-self: flex-end;
+    width: 56px;
+    height: 20px;
+    display: flex;
+}
+@media screen and (max-width:715px) {
+    .product__managment-buttons {
+        margin-left: auto;
+        align-self: unset;
+    }
+}

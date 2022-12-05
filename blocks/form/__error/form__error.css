@@ -1,0 +1,6 @@
+.form__error {
+    position: absolute;
+    color: #F55123;
+    bottom: 0;
+    left: 0;
+}

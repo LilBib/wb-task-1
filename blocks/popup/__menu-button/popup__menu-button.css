@@ -1,0 +1,22 @@
+.popup__menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 32px;
+    border: 2px solid rgba(203, 17, 171, 0.15);
+    border-radius: 20px;
+    font-weight: 715;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 8px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.popup__menu-button:last-of-type {
+    margin-right: 0;
+}
+@media screen and (max-width:715px) {
+    .popup__menu-button {
+        max-width: 140px;
+    }
+}

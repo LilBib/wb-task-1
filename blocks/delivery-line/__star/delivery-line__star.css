@@ -1,0 +1,7 @@
+.delivery-line__star {
+    background: url(../../../icons/star.svg) center no-repeat;
+    min-width: 12px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 4px;
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width:715px) {
+    .delivery-line__value-container_place_date {
+        margin-top: 12px;
+    }
+}

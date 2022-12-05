@@ -1,0 +1,7 @@
+.main__section-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: black;
+}

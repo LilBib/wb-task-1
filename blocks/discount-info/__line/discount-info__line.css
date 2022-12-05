@@ -1,0 +1,8 @@
+.discount-info__line {
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.discount-info__line:last-of-type {
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+.popup__button {
+    align-self: flex-start;
+    background-color:  #CB11AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    font-weight: 715;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    min-width: 164px;
+    min-height: 44px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.popup__button:hover {
+    opacity: .85;
+}
+@media screen and (max-width:715px) {
+    .popup__button {
+        width: 100%;
+        max-width: 288px;
+        margin: auto auto 0;
+    }
+}

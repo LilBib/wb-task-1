@@ -1,0 +1,18 @@
+.header__burger-button {
+    background-image: url(../../../icons/burger-button.svg);
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+    margin-right: 16px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.header__burger-button:hover {
+    opacity: .75;
+}
+@media screen and (max-width:715px) {
+    .header__burger-button {
+        background-image: url(../../../icons/burger-mobile.svg);    
+        width: 28px;
+        height: 28px;
+    }
+}

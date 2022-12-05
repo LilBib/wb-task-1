@@ -1,0 +1,11 @@
+.header__search-form {
+    flex: 1;
+    display: flex;
+    position: relative;
+    margin: 0 32px;
+}
+@media screen and (max-width:715px) {
+    .header__search-form {
+        display: none;
+    }
+}

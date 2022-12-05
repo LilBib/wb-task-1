@@ -1,0 +1,7 @@
+.payment-section__card-thumbnail {
+    background: url(../../../images/mir-card.png) no-repeat center;
+    background-size: cover;
+    width: 32px;
+    height: 24px;
+    margin-right: 8px;
+}

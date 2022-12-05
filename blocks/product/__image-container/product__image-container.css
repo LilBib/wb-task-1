@@ -1,0 +1,11 @@
+.product__image-container {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:715px) {
+    .product__image-container {
+        position: relative;
+        grid-area: image;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,6 @@
+.sum__discount-container {
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.payment__ckeckbox {
+    background: url(../../../icons/checkbox-empty.svg) no-repeat center;
+    width: 22px;
+    height: 22px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+    position: relative;
+}
+.payment__ckeckbox::after {
+    content: 'Списать оплату сразу';
+    color: black;
+    position: absolute;
+    bottom: 3px;
+    right: -135px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}

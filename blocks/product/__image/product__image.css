@@ -1,0 +1,12 @@
+.product__image {
+    width: 72px;
+    height: 96px;
+    border-radius: 8px;
+    background-size: contain;
+}
+@media screen and (max-width:715px) {
+    .product__image {
+        width: 80px;
+        height: 106px;
+    }
+}

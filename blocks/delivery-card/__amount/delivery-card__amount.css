@@ -1,0 +1,16 @@
+.delivery-card__amount {
+    position: absolute;
+    min-width: 8px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 0;
+    top: -8px;
+    right: -4px;
+    padding: 0 4px;
+    background: #F55123;
+    border-radius: 16px;
+    width: max-content;
+}

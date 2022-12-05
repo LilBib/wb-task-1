@@ -1,0 +1,9 @@
+.summary__pencil {
+    width: 20px;
+    height: 20px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+    background: url(../../../icons/pencil-icon.svg) no-repeat center;
+}
+.summary__pencil:hover {
+    opacity: .75;
+}

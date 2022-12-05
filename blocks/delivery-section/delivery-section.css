@@ -1,0 +1,12 @@
+.delivery-section {
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+@media screen and (max-width:715px) {
+    .delivery-section {
+        padding: 16px;
+    }
+}

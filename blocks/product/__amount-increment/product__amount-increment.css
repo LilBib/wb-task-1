@@ -1,0 +1,6 @@
+.product__amount-increment {
+    width: 24px;
+    height: 24px;
+    background: url(../../../icons/plus.svg) no-repeat center;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}

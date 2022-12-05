@@ -1,0 +1,7 @@
+.product__like-button_active {
+    background: url(../../../../icons/likedLike.svg);
+}
+.product__like-button_active:hover {
+    opacity: .8;
+    background: url(../../../../icons/likedLike.svg);
+}

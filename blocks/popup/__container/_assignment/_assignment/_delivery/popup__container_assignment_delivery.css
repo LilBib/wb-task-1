@@ -1,0 +1,8 @@
+.popup__container_assignment_delivery {
+    width: calc(500px - 22px - 22px);
+}
+@media screen and (max-width:715px) {
+    .popup__container_assignment_delivery {
+        width: calc(100vw - 32px);
+    }
+}

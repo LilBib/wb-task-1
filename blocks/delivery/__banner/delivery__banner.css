@@ -1,0 +1,18 @@
+.delivery__banner {
+    padding: 8px 8px 12px;
+    background: #F6F6FA;
+    border-radius: 8px;
+    width: calc(100% - 16px);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+@media screen and (max-width:1024px) {
+    .delivery__banner {
+        background-color: #F0ECF4;
+    }
+}

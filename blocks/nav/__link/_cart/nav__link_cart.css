@@ -1,0 +1,4 @@
+.nav__link_cart {
+    background: url(../../../../icons/mob-cart-button.svg) no-repeat center;
+    position: relative;
+}

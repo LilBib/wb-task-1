@@ -1,0 +1,17 @@
+.main__section-title {
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 715;
+    font-size: 28px;
+    line-height: 36px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+@media screen and (max-width:715px) {
+    .main__section-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

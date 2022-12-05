@@ -1,0 +1,5 @@
+@media screen and (max-width:715px) {
+    .cart {
+        padding: 0 16px;
+    }
+}

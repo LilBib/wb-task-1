@@ -1,0 +1,9 @@
+.product__producer-container {
+    display: flex;
+    height: 16px;
+}
+@media screen and (max-width:715px) {
+    .product__producer-container {
+        display: none;
+    }
+}

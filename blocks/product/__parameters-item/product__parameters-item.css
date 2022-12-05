@@ -1,0 +1,11 @@
+.product__parameters-item {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 16px;
+}
+.product__parameters-item:last-of-type {
+    margin: 0;
+}

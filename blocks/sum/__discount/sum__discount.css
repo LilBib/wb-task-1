@@ -1,0 +1,10 @@
+.sum__discount {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A0A0A4;
+    text-decoration: line-through;
+    border-bottom: 1px dashed #A0A0A4;
+    text-align: right;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}

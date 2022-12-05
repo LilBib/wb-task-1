@@ -1,0 +1,10 @@
+.product__delete-button {
+    background: url(../../../icons/delete.svg) no-repeat center;
+    min-width: 20px;
+    height: 20px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+    margin-left: auto;
+}
+.product__delete-button:hover {
+    background: url(../../../icons/delete-active.svg) no-repeat center;
+}

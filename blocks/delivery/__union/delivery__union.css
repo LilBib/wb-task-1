@@ -1,0 +1,6 @@
+.delivery__union {
+    background: url(../../../icons/price-shipping.svg) no-repeat center;
+    min-width: 22px;
+    height: 22px;
+    margin-right: 8px;
+}

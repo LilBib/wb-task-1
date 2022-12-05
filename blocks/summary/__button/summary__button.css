@@ -1,0 +1,8 @@
+.summary__button {
+    height: 44px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #CB11AB;
+    margin-bottom: 12px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}

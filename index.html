@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Товары и точка</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__burger-button"></div>
+            <h1 class="header__title">товары и точка</h1>
+            <form class="header__search-form" novalidate>
+                <input type="text" placeholder="Я ищу..." class="header__search-input"> 
+                <button class="header__search-button"></button>
+            </form>
+            <div class="header__nav">
+                <div class="header__nav-button">
+                    <div class="header__nav-icon header__nav-icon_profile"></div>
+                    <span class="header__nav-span">Профиль</span>
+                </div>
+                <div class="header__nav-button">
+                    <div class="header__nav-icon header__nav-icon_cart">
+                        <p class="page__active-products-amount"></p>
+                    </div>
+                    <span class="header__nav-span">Корзина</span>
+                </div>
+            </div>
+            <div class="header__magnifier"></div>
+        </header>
+        <main class="main">
+            <section class="main__cart-coloumn">
+                <section class="cart">
+                    <div class="main__section-title-container">
+                        <h2 class="cart__title main__section-title">Корзина</h2>
+                    </div>
+                    <div class="cart__overall-checkbox-container">
+                        <div class="cart__overall-checkbox main__checkbox main__checkbox_active"></div>
+                        <span class="cart__overall-checkbox-label">Выбрать все</span>
+                        <div class="cart__slider-button"></div>
+                    </div>
+                    <div class="cart__products"></div>
+                    <div class="cart__missing">
+                        <div class="missing__header-container">
+                            <span>Отстутствует &#183;</span>
+                            <span class="missing__amount">3 товара</span>
+                            <div class="cart__slider-button cart__slider-button_place_missing"></div>
+                        </div>
+                        <div class="missing__products-container"></div>
+                    </div>
+                </section>
+                <section class="delivery-section">
+                    <div class="main__section-title-container">
+                        <h2 class="delivery-section__title main__section-title">Способ доставки</h2>
+                        <span class="main__section-button main__section-button_place_delivery">Изменить</span>
+                    </div>
+                    <div class="delivery-line">
+                        <p class="delivery-line__header delivery-line__header_place_adress">Пункт выдачи</p>
+                        <div class="delivery-line__value-container_place_adress">
+                            <p class="delivery-line__value delivery-line__value_place_adress">Бишкек, улица Табышалиева, 57</p>
+                            <div class="delivery-line__rating-container">
+                                <div class="delivery-line__star"></div>
+                                <span class="delivery-line__rating">4.73</span>
+                                <span class="delivery-line__workinghours">Ежедневно с 10 до 21 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="delivery-line">
+                        <p class="delivery-line__header delivery-line__header_place_coast">Стоимость доставки</p>
+                        <div class="delivery-line__value-container">
+                            <p class="delivery-line__value delivery-line__value_place_coast">Бесплатно</p>
+                        </div>
+                    </div>
+                    <div class="delivery__banner delivery__banner_place_cart">
+                        <div class="delivery__union"></div>
+                        <span class="delivery__banner-text">
+                            Обратная доставка товаров на склад при отказе —
+                            <span class="delivery__banner-text delivery__banner-text_active">бесплатно</span>
+                            <div class="delivery__banner-announcement-container">
+                                <p style="margin: 0;" class="delivery__banner-announcement">Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно</p>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+                <section class="payment-section">
+                    <div class="main__section-title-container">
+                        <h2 class="delivery-section__title main__section-title">Способ оплаты</h2>
+                        <span class="main__section-button main__section-button_place_payment">Изменить</span>
+                    </div>
+                    <div class="payment-section__card-container">
+                        <div class="payment-section__card-thumbnail"></div>
+                        <span class="payment-section__card-number">1234 12•• •••• 1234</span>
+                        <span class="payment-section__card-expdate">01/30</span>
+                    </div>
+                    <p class="payment-section__annotation">Спишем оплату с карты при получении</p>
+                </section>
+                <section class="recipient-section">
+                    <div class="main__section-title-container main__section-title-container_place_recipient">
+                        <h2 class="delivery-section__title main__section-title">Получатель</h2>
+                    </div>
+                    <form class="form recipient-section__form-container" novalidate>
+                        <div class="form__line">
+                            <div class="form__input-container">
+                                <span class="form__placeholder form__placeholder__type_name">Имя</span>
+                                <input id="name" type="text" class="form__input form__input_type_name" placeholder="Имя">
+                                <span class="form__error form__error__type_name"></span>
+                            </div>
+                            <div class="form__input-container">   
+                                <span class="form__placeholder form__placeholder__type_surname">Фамилия</span>
+                                <input id="surname" type="text" class="form__input form__input_type_surname" placeholder="Фамилия">
+                                <span class="form__error form__error__type_surname"></span>
+                            </div>
+                        </div>
+                        <div class="form__line">
+                            <div class="form__input-container">   
+                                <span class="form__placeholder form__placeholder__type_email">Почта</span>
+                                <input id="email" type="text" class="form__input form__input_type_email" placeholder="Почта">
+                                <span class="form__error form__error__type_email"></span>
+                            </div>
+                            <div class="form__input-container">   
+                                <span class="form__placeholder form__placeholder__type_number">Телефон</span>
+                                <input id="number" type="tel" class="form__input form__input_type_number" placeholder="Телефон">
+                                <span class="form__error form__error__type_number"></span>
+                            </div>
+                            <div class="form__input-container">   
+                                <span class="form__placeholder form__placeholder__type_index">ИНН</span>
+                                <input id="index" type="number" class="form__input form__input_type_index" placeholder="ИНН">
+                                <span class="form__error form__error__type_index"></span>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </section>
+            <div class="main__summary-coloumn">
+                <div class="summary__container">
+                    <span class="summary__title">Итого</span>
+                    <span class="summary__price"></span>
+                </div>
+                <div class="summary__container summary__container_type_description">
+                    <span class="summary__products-amount"></span>
+                    <span class="summary__without-discount"></span>
+                </div>
+                <div class="summary__container summary__container_type_description">
+                    <span class="summary__discount">Скидка</span>
+                    <span class="summary__discount-amount"></span>
+                </div>
+                <div class="summary__container summary__container_type_description">
+                    <span class="summary__discount">Доставка</span>
+                    <span class="summary__discount-amount">Бесплатно</span>
+                </div>
+                <div class="summary__container summary__container_type_section-header">
+                    <span>Доставка в пункт выдачи</span>
+                    <div class="summary__pencil summary__pencil_type_shipping"></div>
+                </div>
+                <div class="summary__delivery-info">
+                    <span class="delivery__adress">Бишкек, улица Табышалиева, 57</span>
+                    <span class="delivery__date">5–8 фев</span>
+                    <div class="delivery__banner">
+                        <div class="delivery__union"></div>
+                        <span class="delivery__banner-text">
+                            Обратная доставка товаров на склад при отказе —
+                            <span class="delivery__banner-text delivery__banner-text_active">бесплатно</span>
+                            <div class="delivery__banner-announcement-container">
+                                <p style="margin: 0;" class="delivery__banner-announcement">Если товары вам не подойдут, мы вернем их обратно на склад — это бесплатно</p>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="summary__container summary__container_type_section-header">
+                    <span>Оплата картой</span>
+                    <div class="summary__pencil summary__pencil_type_payment"></div>
+                </div>
+                <div class="summary__payment-container">
+                    <div class="payment__card-container">
+                        <div class="payment__card-thumbnail"></div>
+                        <span class="payment__card-number">1234 12•• •••• 1234</span>
+                    </div>
+                    <div class="payment__checkbox-container">
+                        <div class="payment__ckeckbox payment__ckeckbox_active"></div>
+                        <p class="payment__annotation">Спишем оплату с карты при получении</p>
+                    </div>
+                </div>
+                <div class="summary__button">
+                    <p class="summary__button-content">Заказать</p>
+                </div>
+                <div class="summary__user-policy-container">
+                    <div class="user-policy__union"></div>
+                    <div class="user-policy__text-container">
+                        <span class="user-policy__text">Соглашаюсь <span class="user-policy__text user-policy__text_underlined">с правилами пользования торговой площадкой </span>и возврата</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <span>© 2022  ООО «Товары и точка»</span>
+        </footer>
+        <nav class="nav">
+            <div class="nav__link nav__link_home"></div>
+            <div class="nav__link nav__link_search"></div>
+            <div class="nav__link nav__link_cart">
+                <p class="page__active-products-amount"></p>
+            </div>
+            <div class="nav__link nav__link_favourites"></div>
+            <div class="nav__link nav__link_profile"></div>
+        </nav>
+    </div>
+    <div class="popup popup_assignment_payment">
+        <div class="popup__container">
+            <div class="popup__header">
+                <p class="popup__title">Способ оплаты</p>
+                <button type="button" class="popup__close-icon"></button>
+            </div>
+            <div class="popup__main">
+                <div class="popup__card-container">
+                    <div class="popup__checkbox"></div>
+                    <div class="popup__card-thumbnail"></div>
+                    <span class="popup__card-number"></span>
+                </div>
+            </div>
+            <button type="button" class="popup__button">
+                <p class="popup__button-text">Выбрать</p>
+            </button>
+        </div>
+    </div>
+    <div class="popup popup_assignment_delivery">
+        <div class="popup__container popup__container_assignment_delivery">
+            <div class="popup__header">
+                <p class="popup__title">Способ доставки</p>
+                <button type="button" class="popup__close-icon"></button>
+            </div>
+            <div class="popup__menu">
+                <div class="popup__menu-button popup__menu-button_active popup__menu-button_pick-up">
+                    <span>В пункт выдачи</span>
+                </div>
+                <div class="popup__menu-button popup__menu-button_courier">
+                    <span>Курьером</span>
+                </div>
+            </div>
+            <p class="poup__text poup__text_bold">Мои адреса</p>
+            <div class="popup__main popup__main_type_pick-up">
+                <div class="popup__franchise-container">
+                    <div class="popup__checkbox popup__checkbox_active"></div>
+                    <div class="popup__adress-container">
+                        <p class="popup__adress"></p>
+                        <div class="popup__rating-container">
+                            <div class="popup__star delivery-line__star"></div>
+                            <span class="popup__rating delivery-line__rating">4.99</span>
+                            <span class="poup__text popup__text_gray">Пункт выдачи</span>
+                        </div>
+                    </div>
+                    <div class="product__delete-button"></div>
+                </div>
+            </div>
+            <div class="popup__main popup__main_type_courier">
+                <div class="popup__courier-container">
+                    <div class="popup__checkbox"></div>
+                    <p class="popup__adress"></p>
+                    <div class="product__delete-button"></div>
+                </div>
+            </div>
+            <button type="button" class="popup__button">Выбрать</button>
+        </div>
+    </div>
+    <template id="product">
+        <div class="product">
+            <div class="product__image-container">
+                <div class="product__checkbox main__checkbox"></div>
+                <div class="product__image"></div>
+            </div>
+            <div class="product__info">
+                <p class="product__name"></p>
+                <div class="product__parameters"></div>
+                <p class="product__warehouse"></p>
+                <div class="product__producer-container">
+                    <p class="product__producer"></p>
+                    <div class="product__info-icon">
+                        <div class="product__producer-info-container">
+                            <p class="producer-info__name"></p>
+                            <p class="producer-info__reg-number"></p>
+                            <p class="producer-info__adress"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__managment-container">
+                <div class="product__amount-container">
+                    <div class="product__amount-decrement"></div>
+                    <span class="product__amount-counter"></span>
+                    <div class="product__amount-increment"></div>
+                </div>
+                <span class="product__amount-left"></span>
+                <div class="product__managment-buttons">
+                    <div class="product__like-button"></div>
+                    <div class="product__delete-button"></div>
+                </div>
+            </div>
+            <div class="product__sum-container">
+                <span class="sum__price"></span>
+                <div class="sum__discount-container">
+                    <span class="sum__discount"></span>
+                    <div class="sum__discount-info-container">
+                        <div class="discount-info__line discount-info__line_type_service-discount">
+                            <span class="discount-info__percent discount-info__percent_type_service-discount"></span>
+                            <span class="discount-info__amount discount-info__amount_type_service-discount"></span>
+                        </div>
+                        <div class="discount-info__line discount-info__line_type_user-discount">
+                            <span class="discount-info__percent discount-info__percent_type_user-discount"></span>
+                            <span class="discount-info__amount discount-info__amount_type_user-discount"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="product_type_missing">
+        <div class="product product_type_missing">
+            <div class="product__image-container">
+                <div class="product__image product__image_type_missing"></div>
+            </div>
+            <div class="product__info product__info_type_missing">
+                <p class="product__name"></p>
+                <div class="product__parameters">
+                </div>
+            </div>
+            <div class="product__managment-container">
+                <div class="product__managment-buttons">
+                    <div class="product__like-button"></div>
+                    <div class="product__delete-button"></div>
+                </div>
+            </div>
+            <div class="product__sum-container">
+            </div>
+        </div>
+    </template>
+    <template id="delivery-line">
+        <div class="delivery-line">
+            <p class="delivery-line__header"></p>
+            <div class="delivery-line__value-container delivery-line__value-container_place_date"></div>
+        </div>
+    </template>
+    <template id="delivery-card">
+        <div class="delivery-card__image">
+            <p class="delivery-card__amount"></p>
+        </div>
+    </template>
+    <script src="./index.js" type="module"></script>
+</body>

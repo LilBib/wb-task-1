@@ -1,0 +1,4 @@
+.user-policy__text_underlined {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: url(../../../../icons/pointer.svg), pointer;
+}

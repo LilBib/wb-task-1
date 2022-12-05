@@ -1,0 +1,10 @@
+.product__like-button {
+    background: url(../../../icons/like.svg) no-repeat center;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.product__like-button:hover {
+    background: url(../../../icons/like-active.svg) no-repeat center;
+}

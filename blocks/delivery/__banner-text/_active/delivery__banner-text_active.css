@@ -1,0 +1,5 @@
+.delivery__banner-text_active {
+    color: #0CB477;
+    border-bottom: 1px rgba(12, 180, 119, 0.2) dashed;
+    cursor: url(../../../../icons/pointer.svg), pointer;
+}

@@ -1,0 +1,8 @@
+.nav__link {
+    width: 28px;
+    height: 28px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.nav__link:hover {
+    opacity: .85;
+} 

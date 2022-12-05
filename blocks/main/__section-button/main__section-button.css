@@ -1,0 +1,7 @@
+.main__section-button {
+    font-weight: 715;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #CB11AB;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}

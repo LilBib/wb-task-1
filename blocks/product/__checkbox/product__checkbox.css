@@ -1,0 +1,10 @@
+.product__checkbox {
+    margin-right: 12px;
+}
+@media screen and (max-width:715px) {
+    .product__checkbox {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+    }
+}

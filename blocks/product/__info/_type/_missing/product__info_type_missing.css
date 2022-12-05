@@ -1,0 +1,9 @@
+.product__info_type_missing {
+    color: #9797AF;
+    max-width: 309px;
+}
+@media screen and (max-width:715px) {
+    .product__info_type_missing {
+        grid-area: price;
+    }
+}

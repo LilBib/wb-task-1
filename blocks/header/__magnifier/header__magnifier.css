@@ -1,0 +1,15 @@
+.header__magnifier {
+    width: 28px;
+    height: 28px;
+    background: url(../../../icons/magnifier.svg);
+    display: none;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.header__magnifier:hover {
+    opacity: .85;
+}
+@media screen and (max-width:715px) {
+    .header__magnifier {
+        display: block;
+    }
+}

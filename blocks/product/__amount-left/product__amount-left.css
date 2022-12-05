@@ -1,0 +1,13 @@
+.product__amount-left {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FF3B30;
+    margin-bottom: 8px;
+}
+@media screen and (max-width:715px) {
+    .product__amount-left {
+        margin: 0;
+        margin-left: 16px;
+    }
+}

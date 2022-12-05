@@ -1,0 +1,13 @@
+.header__nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 42px;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}
+.header__nav-button:last-of-type {
+    margin-right: 22px;
+}
+.header__nav-button:hover {
+    opacity: .75;
+}

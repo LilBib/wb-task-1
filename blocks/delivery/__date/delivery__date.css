@@ -1,0 +1,8 @@
+.delivery__date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #CB11AB;
+    margin-bottom: 13px;
+    border-bottom: 1px rgba(203, 17, 171, 0.2) dashed;
+}

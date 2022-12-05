@@ -1,0 +1,14 @@
+.product__managment-container {
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    margin-right: 16px;
+}
+@media screen and (max-width:715px) {
+    .product__managment-container {
+        flex-direction: row;
+        grid-area: managment;
+        align-items: center;
+        margin: 0;
+    }
+}

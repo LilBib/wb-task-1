@@ -1,0 +1,15 @@
+.main__summary-coloumn {
+    flex: 1;
+    padding: 16px 24px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+@media screen and (max-width:1024px) {
+    .main__summary-coloumn {
+        background: inherit;
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+.header__title {
+    width: 108px;
+    overflow-wrap: break-word;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-variant: small-caps;
+    position: relative;
+    top: -3px;
+}
+@media screen and (max-width:715px) {
+    .header__title {
+        font-size: 26px;
+        flex-grow: 1;
+        top: -5px;
+        text-align: center;
+    }
+}

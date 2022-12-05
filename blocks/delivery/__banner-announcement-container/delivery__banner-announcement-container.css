@@ -1,0 +1,18 @@
+.delivery__banner-announcement-container {
+    width: 100%;
+    position: absolute; 
+    padding: 10px 16px 14px;
+    bottom: -45px;
+    left: -16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: none;
+}
+.delivery__banner-text_active:hover + .delivery__banner-announcement-container {
+    display: block;
+}
+
+.delivery__banner-announcement-container:hover {
+    display: block;
+}

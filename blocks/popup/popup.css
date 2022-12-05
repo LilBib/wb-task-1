@@ -1,0 +1,12 @@
+.popup {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(5, 0, 10, 0.3);
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.25s ease-in-out;
+    transition-delay: 0.25s, 0s;
+    opacity: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,10 @@
+.main__cart-coloumn {
+    margin-top: 10px;
+    margin-right: 32px;
+    flex: 2;
+}
+@media screen and (max-width:1024px) {
+    .main__cart-coloumn {
+        margin: 0;
+    }
+}

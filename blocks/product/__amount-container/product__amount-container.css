@@ -1,0 +1,17 @@
+.product__amount-container {
+    width: 100px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+@media screen and (max-width:715px) {
+    .product__amount-container {
+        margin: 0;
+        width: 80px;
+        height: 32px;
+    }
+}

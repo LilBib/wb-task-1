@@ -1,0 +1,20 @@
+.sum__discount-info-container {
+    position: absolute;
+    top: 19px;
+    right: -9px;
+    width: 207px;
+    height: auto;
+    padding: 11px 16px 13px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15), 0px 0px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: none;
+}
+.sum__discount:hover + .sum__discount-info-container {
+    display: flex;
+}
+.sum__discount-info-container:hover {
+    display: flex;
+}

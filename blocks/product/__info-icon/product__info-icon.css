@@ -1,0 +1,7 @@
+.product__info-icon {
+    position: relative;
+    background: url(../../../icons/info-icon.svg) no-repeat center;
+    cursor: url(../../../icons/pointer.svg), pointer;
+    width: 20px;
+    height: 20px;
+}

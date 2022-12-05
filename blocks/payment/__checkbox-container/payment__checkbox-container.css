@@ -1,0 +1,12 @@
+.payment__checkbox-container {
+    margin-top: 12px;
+    background: #F6F6FA;
+    border-radius: 8px;
+    padding: 8px 8px 12px;
+    color: black;
+}
+@media screen and (max-width:715px) {
+    .payment__checkbox-container {
+        background-color: #F0ECF4;
+    }
+}

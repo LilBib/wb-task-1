@@ -1,0 +1,8 @@
+.cart__slider-button {
+    width: 20px;
+    height: 20px;
+    background: url(../../../icons/sliderButton.svg);
+    margin-left: auto;
+    cursor: url(../../../icons/pointer.svg), pointer;
+    transition: all ease-in-out .2s;
+}

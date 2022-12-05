@@ -1,0 +1,7 @@
+.product__amount-decrement {
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    background: url(../../../icons/minus.svg) no-repeat center;
+    cursor: url(../../../icons/pointer.svg), pointer;
+}

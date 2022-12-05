@@ -1,0 +1,6 @@
+.cart__overall-checkbox-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
